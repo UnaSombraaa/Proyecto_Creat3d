@@ -1,22 +1,6 @@
-.flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 body{
-    background-color: bisque;
+    color: rgb(189, 67, 53) ;
+    background: linear-gradient(white,purple );
+
 }
-section{
-    display: flex;
-    justify-content: space-around;
-    background-color:rgb(190, 49, 255);
-    border: solid rgb(128, 36, 170) 5px;
-    border-radius: 5px;
-    height: 60px; display: flex;
-}
-section p{
-    color: antiquewhite;
-    font-size: 30px;
-    margin-right: 20px;
-    margin-left: 100px;
-}
+
