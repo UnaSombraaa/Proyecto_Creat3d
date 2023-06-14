@@ -1,22 +1,33 @@
-.flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 body{
-    background-color: bisque;
+    background-color: #1e1e1e;
 }
-section{
+
+
+.search-bar {
     display: flex;
-    justify-content: space-around;
-    background-color:rgb(190, 49, 255);
-    border: solid rgb(128, 36, 170) 5px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .search-bar input[type="text"] {
+    padding: 10px;
     border-radius: 5px;
-    height: 60px; display: flex;
-}
-section p{
-    color: antiquewhite;
-    font-size: 30px;
-    margin-right: 20px;
-    margin-left: 100px;
-}
+    border: none;
+    background-color: #e3daee;
+    color: #fff;
+  }
+
+  .search-bar input[type="submit"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c68dee;
+    color: #fff;
+    cursor: pointer;
+  }
+  
