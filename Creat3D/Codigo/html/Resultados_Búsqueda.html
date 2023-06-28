@@ -10,19 +10,24 @@
 
 <body>
         <header>
-        <div><img width="150px" src="../img/logo.png" alt="Logo Creat3D"></div>
-        <div class="container">
-            <input type="text" placeholder="Buscar">
-            <a href="Resultados_Búsqueda.html" class="btn btn-outline-primary"><img src="../img/lupa.png" alt="buscar" style="zoom: 5%;"></a>
-        </div>     
-        <div>
+        <div><a href="Principal.html"><img  width="150px" src="../img/logo.png" alt="Logo Creat3D" > </a></div>   
+        <div id="Boton_Iniciar">
         <a href="Iniciar.html">Iniciar Sesión</a>
         </div>   
-        <div>
+        <div id ="Boton_registrar">
         <a href="Registrar.html">Registrarse</a>
         </div>           
         </header>
-        <h1>Resutados de Búsqueda de: </h1>
+        <section>
+        <div class="container">
+            <input type="text" placeholder="Buscar">
+            <a href="Resultados_Búsqueda.html" class="btn btn-outline-primary"> <img src="../img/lupa.png" alt="buscar" style="zoom: 5%;"></a>
+        </div>  
+        </section>
+        <h1>Resutados de Búsqueda de: <script>
+            alert ("resultados de busqueda en desarrollo");
+        </script>
+        </h1>
         <p></p>
         <div class="card" style="width: 10%;">
             <a href="https://www.youtube.com"><img class="card-img-top" src="../img/cubo3D.png" alt="Vista Previa" style="zoom: 25%;"></a>
@@ -30,6 +35,19 @@
               <h5 class="card-title">Cubo 3D</h5>
               <p class="card-text">NJose.QPena</p>
             </div>
+            <footer>
+                <style>
+                    footer{
+                        display: flexbox;
+                        position:absolute;
+                        top: 80%;
+                    }
+                </style>
+                <li><a href="">Atencion al Cliente</a></li>
+                <li><a href="Nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="">Informacion</a></li>
+                <li><a href="">Redes</a></li>
+            </footer>
 </body>
 
 </html>
