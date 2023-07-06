@@ -1,6 +1,6 @@
 .flex{
     display: flex;
-    flex-direction: column;
+    
 }
 body{
     background-color: bisque;
@@ -16,6 +16,21 @@ section{
     border-radius: 5px;
     height: 60px; display: flex;
 }
-
+article h2{
+    display: flex;
+    margin-left: 40%;
+    border: solid rgb(128, 36, 170)
+}
+article h3{
+    display: flex;
+    margin-left: 40%;
+    border: solid rgb(128, 36, 170)
+}
+article{
+    justify-content:end;
+}
+div{
+    margin-right: 10%;
+}
 
 
