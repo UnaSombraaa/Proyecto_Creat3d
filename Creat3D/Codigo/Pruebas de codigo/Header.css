@@ -18,11 +18,13 @@ section{
 }
 article h2{
     display: flex;
+
     margin-left: 40%;
     border: solid rgb(128, 36, 170)
 }
 article h3{
     display: flex;
+    
     margin-left: 40%;
     border: solid rgb(128, 36, 170)
 }
