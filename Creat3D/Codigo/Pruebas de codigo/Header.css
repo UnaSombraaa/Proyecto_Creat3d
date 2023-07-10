@@ -17,22 +17,25 @@ section{
     height: 60px; display: flex;
 }
 section h1{
-    margin-right: 130px;
+    margin-right: 190px;
     margin-bottom: 12px;
 }
 h2{
     display: flex;
     justify-content: flex-end;
-    margin-left: 20%;
-    border: solid rgb(128, 36, 170);
-    border-radius: 6px;
-}
-article{
-   flex-direction: row;
+    border:rgb(190, 49, 255);
+    border-radius: 7px;
+    position:absolute;
+    margin-top: -10px;
+    
 }
 div{
     margin-right: 240px;
     margin-left: 0,25px;
+}
+button{
+    color: rgb(190, 49, 255);
+    background-color: rgb(128, 36, 170);
 }
 
 
