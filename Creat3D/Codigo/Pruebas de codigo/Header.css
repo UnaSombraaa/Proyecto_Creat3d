@@ -23,7 +23,6 @@ section h1{
 h2{
     display: flex;
     justify-content: flex-end;
-    border:rgb(190, 49, 255);
     border-radius: 7px;
     position:absolute;
     margin-top: -10px;
@@ -34,8 +33,12 @@ div{
     margin-left: 0,25px;
 }
 button{
-    color: rgb(190, 49, 255);
-    background-color: rgb(128, 36, 170);
+    color: rgb(0, 0, 0);
+    background-color: rgb(175, 33, 241);
+    border: solid rgb(128, 36, 170);
+}
+article{
+    margin-right: 6%;
 }
 
 
