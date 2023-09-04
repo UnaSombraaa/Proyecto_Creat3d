@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 4px 25px -60px black;
+    z-index: 2;
+    z-index: 10;
+}
+.header-content{
+    max-width: 1200px; 
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h1 b{
+    color: rgb(177, 22, 191);
+}
+.menu{
+    height: 90px;
+    margin-right: 60px;
+}
+.menu nav{
+    height: 100px;
+}
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+.menu nav ul li{
+    height: 100%;
+    margin: 0% 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.menu-selected:before{
+content:''  ;
+width: 100%;
+height: 4px;
+background-color:rgb(177, 22, 191);
+position: absolute;
+top: 0;
+left: 0;
+}
+.menu nav ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: color 300ms;
+}
+.menu nav ul li a:hover{
+    color: rgb(177, 22, 191);
+}
+.menu nav ul li a .menu.text-menu.selected{
+    color: rgb(177, 22, 191);
+    
+}
+.menu.text-menu.selected{
+    color: rgb(177, 22, 191);
+}
+/*portada*/
+.container-cover{
+    width: 100%;
+    height:500px ;
+    position: relative;
+    top: 80px ;
+    background-image: url(../img/img7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-cover:before{
+    content:'' ;
+    width: 100%;
+    height: 100%;
+    background:rgba(117, 77, 150, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container-info-cover{
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;    
+}
+.container-info-cover h1{
+    font-size:60px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 20px;
+}
+.container-info-cover p{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+/*container - contenido del articulo*/ 
+.container-content{
+     width: 1200px;
+     margin: auto ;
+     margin-top: 40px;   
+}
+article{ 
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 40px;
+    box-shadow: -10px 0 -30px black;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+article:before{
+    content: '';
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgb(177, 22, 191); ;
+}
+article h1{
+    margin-top: 20px;
+    font-weight: 500px;
+    font-size: 40px;
+}
+article p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #3c3c3c;
+}
+article img{
+    width:30%;
+    margin-top: 20px;
+} 
+/*footer-gion-de-pagina*/
+.container-footer{
+    width: 100%;
+    padding: 40px 0 ;
+}
+/*buscador de contenido*/
+#ctn-icon-search{
+    position: absolute;
+    right: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ctn-icon-search i{
+font-size: 18px;
+color: #000;
+cursor: pointer;
+transition: all 300ms;
+}
+#ctn-icon-search i:hover{
+color:rgb(177, 22, 191);
+}
+#ctn-bars-search{
+    position: fixed;
+    top: -10px;
+    width: 100%;
+    background: rgb(111, 85, 136);
+    padding: 20px;
+    z-index: 9;
+    transition: all 200ms;
+
+}
+#ctn-bars-search input{
+    display: block;
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    font-size: 18px;
+    outline: 0;
+    
+}
+#box-search{
+    position: fixed;
+    top: 165px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
+    background:#fff ;
+    z-index: 9;
+    overflow: hidden;
+    display: none;
+}
+#box-search li a{
+    display: block;
+    width: 1200px;
+    color:#000 ;
+    padding: 12px 20px;
+}
+#box-search li a:hover{
+    background: #cca5cf;
+}
+
+#cover-ctn-search{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 7;
+    display: none;
+    transition: 500ms;
+}
+/*boton de subir*/
+.button-up{
+    width: 60px;
+    height: 60px;
+    background:#14ddd3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;}
+
+    .button-up:hover{
+        transform: scale(1.1);
+        border-color:rgba(0,0,0,0.1);
+    }
+
+/*guion de pagina xd*/
+.container-footer{
+    width: 100%;
+    padding: 40px 0;
+    background-color: #f7f7f77c;
+    margin-top: 40px;
+}
+.container-footer footer{
+
+    max-width: 1200px;
+    margin:auto;
+}
+.container-footer footer .logo-footer{
+    text-align: center;
+}
+.container-footer footer .logo-footer img{
+    width: 150px;
+}
+.container-footer footer .redes-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container-footer footer .redes-footer .icon-redes-footer{
+font-size: 20px;
+ margin: 20px;
+ background: #efefef;   
+ width: 50px;
+height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 100%;
+color: #a2a2a2;
+}
+
+footer .redes-footer .fa-facebook:hover{
+    background: #41579A;
+    color: #fff;
+}
+footer .redes-footer .fa-instagram:hover{
+
+background: linear-gradient(to top right, #FCDE30,#E9712A,#D2313A,#AE4198,#7540A1,#5443A8);
+}
+footer .redes-footer .fa-twitter:hover{
+    background: #fff;
+    color: #14ddd3;
+}
+.container-footer footer hr{
+    margin-top: 20px;
+    border: none;
+    height: 2px;
+    background: #a8a8a87a;
+}
+.container-footer{
+    text-align: center;
+    margin-top: 40px;
+    color: #8e8e8e;
+    font-weight: 500;
+}
+body{background-color: rgb(111, 85, 136);}
+header{background-color: #725ea0;}
