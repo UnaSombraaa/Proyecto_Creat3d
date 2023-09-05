@@ -31,7 +31,7 @@ console.log("mostrando buscador");
 // Función para ocultar el buscador
 function ocultar_buscador() {
     console.log("ocultando buscador")
-  barras_busqueda.style.top = "-10px";
+  barras_busqueda.style.top = "-80px";
   cubierta_ctn_search.style.display = "none";
   entradaBusqueda.value = "";
 }
