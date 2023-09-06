@@ -63,6 +63,7 @@
                   <div class="form-outline mb-4">
                     <input name="nombre" type="text" id="formNombre" class="form-control form-control-lg" placeholder="Nombre" />
                   </div>
+                  
 
                   <div class="form-outline mb-4">
                     <input name="apellido" type="text" id="formApellidos" class="form-control form-control-lg" placeholder="Apellidos" />
