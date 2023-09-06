@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +23,7 @@
                 <nav>
                     <ul>
                         <li><a href="#">AMIGOS</a></li>
-                        <li><a href="#">PERFIL</a></li>
+                        <li><a href="usuario.php">PERFIL</a></li>
                         <li class="menu-selected"><a href="#" class="text-menu-selected">INICIO</a></li>
                         <li><a href="#">TOPITOS</a></li>
                     </ul>

@@ -39,13 +39,13 @@
       }
     </style>
 <section class="min-vh-100" style="background-color: #9A616D;">
-  <div class="container h-100 w-75">
+  <div class="container h-75 w-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col col-xl-10">
         <div class="card" style="border-radius: 1rem;">
           <div class="row g-0">
             <div class="col-md-6 col-lg-5 d-none d-md-block">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+              <img src="../img/img1.jpg"
                 alt="registration form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
             </div>
             <div class="col-md-6 col-lg-7 d-flex align-items-center">
@@ -84,7 +84,7 @@
                   <div id="error-message" class="text-danger"></div>
 
                   <div class="form-outline mb-4">
-                    <input name="fecha_nacimiento" type="date" id="formFechaNacimiento" class="form-control form-control-lg" />
+                    <input name="edad" type="date" id="formFechaNacimiento" class="form-control form-control-lg" />
                     <label class="form-label" for="formFechaNacimiento">Fecha de Nacimiento</label>
                   </div>
 
