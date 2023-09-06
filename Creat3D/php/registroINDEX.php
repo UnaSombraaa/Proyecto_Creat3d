@@ -9,7 +9,7 @@
 </head>
 <body>
 <style>
-      /* Personalización de estilos */
+      /* Personalización de estilos */ 
       .form-container {
         display: flex;
         flex-direction: column;

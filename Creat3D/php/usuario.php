@@ -9,13 +9,25 @@
 </head>
 <body>
 <header>
-    <!-- Aquí coloca el contenido de tu encabezado -->
+    <div class="header-content">
+            <div class="logo">
+                <h1>CREAT <b>3D</b></h1>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">AMIGOS</a></li>
+                        <li><a href="usuario.php">PERFIL</a></li>
+                        <li class="menu-selected"><a href="#" class="text-menu-selected">INICIO</a></li>
+                        <li><a href="#">TOPITOS</a></li>
+                    </ul>
+                </nav>
+            </div>
 </header>
 <section class="container-content">
     <article>
         <h1>Configuración de Usuario</h1>
         <form method="POST" action="guardar_configuracion.php">
-            <!-- Aquí coloca los campos de configuración que necesites -->
             <div class="form-outline mb-4">
                 <label for="nombre" class="form-label">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" class="form-control" value="Nombre del usuario">
