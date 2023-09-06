@@ -1,121 +1,60 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pruebas</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>login</title>
+    <link href="css/formulario.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
-    <div class="body"></div>
-    <!--header - menu-->
-    <header>
-        <div class="header-content">
-<div class="logo">
-   <h1>CREAT <b>3D</b></h1>
-    </div>
-    <div class="menu">
-        <nav>
-            <ul>
-                <li><a href="#">AMIGOS</a></li>
-                <li><a href="#">PERFIL</a></li>
-                <li class="menu-selected"><a href="#"class="text-menu-selected">INICIO</a></li>
-                <li><a href="#">TOPITOS</a></li>
-            </ul>
-        </nav>
-    </div>
-   <div id="ctn-icon-search">
-    <i class="fa-solid fa-magnifying-glass" id="icon-search"></i> 
-   </div>
+<section class="vh-100" style="background-color: #9A616D;">
+  <div class="container  h-100 w-75">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col col-xl-10">
+        <div class="card" style="border-radius: 1rem;">
+          <div class="row g-0">
+            <div class="col-md-6 col-lg-5 d-none d-md-block">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img1.webp"
+                alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+            </div>
+            <div class="col-md-6 col-lg-7 d-flex align-items-center ">
+              <div class="card-body p-4 p-lg-5 text-black ">
 
-    </header>
-    <div id="ctn-bars-search">
-        <input type="text" id="inputSearch" placeholder="¿Que modelo desea buscar?">
+                <form method="POST" class="formulario__login" action="php/login.php">
+                  <h1>
+                    <div class="d-flex align-items-center mb-3 pb-1">
+                      <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                      <span class="h1 fw-bold mb-0">
+                        <div class="logo">
+                        <h1>CREAT <span style="color: rgb(191, 22, 140);">3D</span></h1>
+                        </div>
+                      </span>
+                    </div>
+                    <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Inicia sesion en tu cuenta</h5>
+                    <div class="form-outline mb-4">
+                      <input name="email" type="email" id="form2Example17" class="form-control form-control-lg" />
+                      <label class="form-label" for="form2Example17">Correo Electronico</label>
+                    </div>
+                    <div class="form-outline mb-4">
+                      <input name="contrasena" type="password" id="form2Example27" class="form-control form-control-lg" />
+                      <label class="form-label" for="form2Example27">Contraseña</label>
+                    </div>
+                    <div class="pt-1 mb-4">
+                      <input class="btn btn-dark btn-lg btn-block" type="submit" value="Iniciar Sesion" name="iniciar_Sesion">
+                    </div>
+                    <a class="small text-muted" href="#!" id="contra">Olvidaste la contraseña?</a>
+                    <p class="mb-5 pb-lg-2" style="color: #393f81;">No tienes una cuenta? <a href="php/registroINDEX.php"
+                        style="color: #393f81;">Registrate aca</a></p>
+                  </h1>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
-     <ul id="box-search">
-        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>modelos del papu</a></li>
-        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>modelos del papu</a></li>
-        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>modelos del papu</a></li>
-        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>modelos del papu</a></li>
-        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>modelos del papu</a></li>
-        <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>modelos del papu</a></li>
-        
-     </ul>
-     <div id="cover-ctn-search"></div>
-    
-      <!--portada - menu-->
-      <div class="container-cover">
-        <div class="container-info-cover">
-            <h1>¡PUEDES COMPRAR O VENDER MODELOS!</h1>
-            <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas .</p>
-        
       </div>
-      <div class="container-content">
-        <article>
-            <h1>TITULOS DE MODELOS</h1>
-            <p> el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de
-                 Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, 
-                 acompañadas por versiones en Inglés dAl contrario del pensamiento popular, el texto de Lorem Ipsum 
-                 no es simplemente texto aleatorio. Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de Finnibus Bonorum et Malorum" (Los Extremos del Bien y El Mal) por Cicero, escrito en el año 45 antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el Renacimiento. La primera linea del Lorem Ipsum, "Lorem ipsum dolor sit amet..", viene de una linea en la sección 1.10.32
-                El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debaro son también
-                 reproducidas en su forma original exacta, acompañadas por versiones en Inglés d</p>
-       
-                <p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio.
-                     Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de
-                      Cristo, haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un
-                    viene de las secciones   
-                     
-                      
-                   
-           <img src="img/d.jpg" alt="">
-           <p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio.
-             Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo,
-              haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de
-             antes de Cristo. Este libro es un tratado de teoría de éticas, muy popular durante el 
-             Renacimiento. La primera linea del Lorem Ipsum, "Lorem ipsum dolor sit amet..", viene de una 
-             linea en la sección 1.10.32
-            </p>
-             <img src="img/a.jpg" alt="">
-            <p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio.
-                Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de Cristo,
-                 haciendo que este adquiera mas de 2000 años de antiguedad. Richard McClintock, un profesor de Latin de
-              la Universidad de Hampden-Sydney en Virginia, encontró una de las palabras más oscuras de la lengua
-                 del latín, "consecteur", en un pasaje de Lorem Ipsum, y al seguir leyendo distintos textos del
-                 latín, descubrió la fuente indudable. Lorem Ipsum viene de las secciones 1.10.32 y 1.10.33 de "de
-             </p>
-                <img src="img/b.jpg" alt="">
-             <p>Al contrario del pensamiento popular, el texto de Lorem Ipsum no es simplemente texto aleatorio.
-                Tiene sus raices en una pieza cl´sica de la literatura del Latin, que data del año 45 antes de
-                 
-             </p>
-                 <img src="img/c.jpg" alt="">
-                    </article>
-            </div>
-                  <!--boton-de-subir-->
-                  <div class="button-up">
-                    <i class="fa-solid fa-chevron-up"></i>
-                  </div>
-
-            <div class="container-footer">
-                <footer>
-                    <div class="logo-footer">
-                        <img src="img/img8.jpg" alt="">
-                    </div>
-
-                    <div class="redes-footer">
-                        <a href="#"><i class="fa-brands fa-instagram icon-redes-footer"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter icon-redes-footer"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook icon-redes-footer"></i></a>
-                    </div>
-                    <hr>
-                    <h4>@2023 CREAT3D - TODOS LOS DERECHOS RESERVADOS</h4>
-                </footer>
-            </div>
-
-            <script src ="https://kit.fontawesome.com/3979cc010c.js" crossorigin="anonymous"></script>
-            <script src ="js/script.js"></script> 
+    </div>
+  </div>
+</section>
 </body>
 </html>

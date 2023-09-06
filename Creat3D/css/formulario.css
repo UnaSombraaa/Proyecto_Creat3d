@@ -1,0 +1,21 @@
+
+.logo h1 b{
+  color: rgb(177, 22, 191);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.contra{
+  font-size: 15px;
+}
+
+/* Estilo para el enlace "Olvidaste la contraseña?" */
+#contra {
+  font-size: 15px;
+}
