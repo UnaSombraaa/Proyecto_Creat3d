@@ -1,3 +1,4 @@
+<?php require ('./php/layout/header.php')?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
