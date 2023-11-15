@@ -1,9 +1,8 @@
-@charset "UTF-8";
-.logo h1 b {
+
+.logo h1 b{
   color: rgb(191, 22, 50);
 }
-
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,7 +11,7 @@
   font-size: 15px;
 }
 
-.contra {
+.contra{
   font-size: 15px;
 }
 
@@ -21,12 +20,13 @@
   font-size: 15px;
 }
 
-.login form {
+.login form{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  align-content: stretch;
+  align-content:stretch;
   text-decoration: none;
   font-family: sans-serif;
   font-size: 15px;
-}/*# sourceMappingURL=formulario.css.map */
+  
+}
